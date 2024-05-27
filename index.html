@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game bầu cua</title>
+    <link rel="stylesheet" href="./materials/main.css" />
+  </head>
+  <body>
+    <div id="container-quay-img" class="container-row-flex">
+      <div class="img-random-1 img-random container-img">
+        <img src="./materials/img/bau.png" class="img-100x100" />
+      </div>
+      <div class="img-random-2 img-random container-img">
+        <img src="./materials/img/bau.png" class="img-100x100" />
+      </div>
+      <div class="img-random-3 img-random container-img">
+        <img src="./materials/img/bau.png" class="img-100x100" />
+      </div>
+    </div>
+
+    <div id="container-quay-button" class="container-row-flex">
+      <div id="edit-button">
+        <button id="quay-button">Quay</button>
+      </div>
+    </div>
+
+    <div id="container-chon-img" class="container-row-flex">
+      <div id="img-bau" class="container-img hover-div disable">
+        <span id="count-bau" class="count"></span>
+        <img src="./materials/img/bau.png" class="img-100x100 hover-effect" />
+      </div>
+      <div id="img-cua" class="container-img hover-div disable">
+        <span id="count-cua" class="count"></span>
+        <img src="./materials/img/cua.png" class="img-100x100 hover-effect" />
+      </div>
+      <div id="img-tom" class="container-img hover-div disable">
+        <span id="count-tom" class="count"></span>
+        <img src="./materials/img/tom.png" class="img-100x100 hover-effect" />
+      </div>
+      <div id="img-ca" class="container-img hover-div disable">
+        <span id="count-ca" class="count"></span>
+        <img src="./materials/img/ca.png" class="img-100x100 hover-effect" />
+      </div>
+      <div id="img-huou" class="container-img hover-div disable">
+        <span id="count-huou" class="count"></span>
+        <img src="./materials/img/huou.png" class="img-100x100 hover-effect" />
+      </div>
+      <div id="img-ga" class="container-img hover-div disable">
+        <span id="count-ga" class="count"></span>
+        <img src="./materials/img/ga.png" class="img-100x100 hover-effect" />
+      </div>
+    </div>
+
+    <div id="container-luu-y-va-dat-lai" class="container-row-flex">
+      <div id="note">
+        <p>Lưu ý:</p>
+        <p>
+          - Số lần đặt ở một "Hình" sẽ là số lần xuất hiện của các "Hình" trên
+          "Kết quả"
+        </p>
+        <p>- Tổng số điểm đặt trong một lần, tối đa là 3</p>
+      </div>
+
+      <div id="reset-button">
+        <button id="dat-lai-button">Đặt lại</button>
+      </div>
+    </div>
+
+    <script src="./materials/random.js"></script>
+    <script src="./materials/pickimg.js"></script>
+  </body>
+</html>

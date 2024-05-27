@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 200px;
+}
+
+div.container-row-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+img.img-100x100 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+img.hover-effect:hover {
+    width: 104px;
+    height: 104px; 
+}
+
+div.hover-div {
+    transition: 0.5s;
+}
+
+div.hover-div:hover {
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0px 2.5px;
+    position: relative;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+div#container-chon-img {
+    height: 160px;
+}
+
+div.container-img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 0px 5px;
+    position: relative;
+}
+
+span.count {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+div#container-quay-button {
+    margin-bottom: 30px;
+    height: 50px;
+}
+
+div#edit-button {
+    width: 950px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button#quay-button {
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px none;
+    background-color: #47CF88;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+button#dat-lai-button {
+    margin-top: 20px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px none;
+    background-color: #47CF88;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+div#note {
+    width: 870px;
+    height: 50px;
+    padding-right: 40px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
